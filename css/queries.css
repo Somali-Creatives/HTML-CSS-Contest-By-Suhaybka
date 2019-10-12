@@ -1,0 +1,241 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  .top{
+    display: none;
+  }
+  .big-logo{
+    display: flex;
+  }
+  .banner{
+    height: 50vh;
+    position: relative;
+  }
+  .banner-before img{
+    width: 70%;
+  }
+  .banner-after img{
+    height: 50vh;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+
+.Navbar__Items {
+    display:none;
+  }
+
+.Navbar__Items--right {
+    margin-left:0;
+  }
+
+.Navbar__ToggleShow {
+    display: flex;
+  }
+  header{
+    width:80;
+    margin: auto;
+  }
+.Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+   }
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .top{
+    display: none;
+  }
+  .big-logo{
+    display: flex;
+  }
+  .jumbotron h1{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+
+  }
+  .jumbotron p {
+    margin:20px 0;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-60%);
+    color: #fff;
+    padding: 10px 0;
+  }
+  .banner{
+    height: 50vh;
+    position: relative;
+  }
+  .banner-before img{
+    width: 70%;
+  }
+  .banner-after img{
+    height: 50vh;
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media(max-width:892px){
+  .jumbotron p{
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .top{
+    display: none;
+  }
+  .big-logo{
+    display: flex;
+  }
+  .banner{
+    height: 50vh;
+    position: relative;
+  }
+  .banner-before img{
+    width: 70%;
+  }
+  .banner-after img{
+    height: 50vh;
+  }
+  .whyus-row{
+    flex-direction: column;
+  }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .top{
+    display: none;
+  }
+  .big-logo{
+    display: flex;
+  }
+  .banner{
+    height: 40vh;
+    position: relative;
+  }
+  .banner-before img{
+    width: 70%;
+  }
+  .banner-after img{
+    height: 40vh;
+  }
+  .jumbotron h1{
+    font-size: 18px;
+    }
+  .jumbotron p{
+    font-size: 10px;
+    padding-right: 50px;
+  }
+  .jumbotron .btn-transparent{
+    height: 40px;
+  }
+  .galleryimage{
+    width: 100%;
+  }
+  .whyus{
+    flex-direction: column;
+  }
+  .pricing-row{
+    flex-direction: column;
+    flex: 1 100%;
+  }
+  .why-we-are-row{
+    flex-direction: column;
+  }
+  iframe{
+    width: 450px;
+  }
+  .services-text{
+    font-size: 13px;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+/* @media(min-width:480px) and(max-width:676px){
+  .banner{
+    height: 40vh;
+    position: relative;
+  }
+  .banner-before img{
+    width: 70%;
+  }
+  .banner-after img{
+    height: 40vh;
+  }
+} */
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .top{
+    display: none;
+  }
+  .big-logo{
+    display: flex;
+  }
+  .banner{
+    height: 20vh;
+    position: relative;
+  }
+  .banner-before img{
+    width: 70%;
+  }
+  .banner-after img{
+    height: 20vh;
+  }
+  .jumbotron h1{
+    font-size: 17px;
+  }
+  .jumbotron p{
+    padding: 10px 0;
+  }
+  .btn-transparent{
+    top: 90%;
+    width: 20px;
+    height: 20px;
+  }
+  iframe{
+    width: 380px;
+  }
+}
