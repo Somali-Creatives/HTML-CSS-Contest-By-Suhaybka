@@ -274,6 +274,7 @@ hr{
   flex:1 auto;
   cursor: pointer;
   padding: 10px 2px;
+  position:relative;
 }
 
 .galleryimage img:hover{
@@ -298,7 +299,7 @@ hr{
 }
 .galleryimage p {
   padding: 10px 0;
-
+  text-align:left;
 }
 .galleryimage a{
   text-decoration: none;
@@ -324,6 +325,9 @@ hr{
 	content: "";
 	width:40px;
 	margin-top:10px;
+}
+.whyus-row p {
+	text-align:left;
 }
 .form{
   border:1px solid #444;

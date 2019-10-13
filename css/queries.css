@@ -199,6 +199,10 @@
   .gotopbtn{
     right: 20px;
   }
+    .galleryimages p{
+        text-align: left;
+    }
+    
 }
 
 /*
